@@ -2,6 +2,7 @@
 name = "wasmer/js-service-worker"
 version = "0.1.0"
 description = "wasmer/js-service-worker js worker"
+readme = "README.md"
 
 [dependencies]
 "wasmer/winter" = "^0.1.0"
