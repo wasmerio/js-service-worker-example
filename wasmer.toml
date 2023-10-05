@@ -1,18 +1,19 @@
 [package]
-name = "wasmer/js-service-worker"
-version = "0.1.1"
-description = "wasmer/js-service-worker js worker"
+name = "wasmer/js-service-worker-example"
+version = "0.1.2"
+description = "Javascript Service worker example"
 readme = "README.md"
+repository = "https://github.com/wasmerio/js-service-worker-example"
 
 [dependencies]
-"wasmer/winter" = "^0.1.0"
+"wasmer/winterjs" = "^0.1.2"
 
 [fs]
 "/src" = "./src"
 
 [[command]]
 name = "script"
-module = "wasmer/winter:wasmer-winter"
+module = "wasmer/winterjs:wasmer-winter"
 runner = "https://webc.org/runner/wasi"
 
 [command.annotations.wasi]
