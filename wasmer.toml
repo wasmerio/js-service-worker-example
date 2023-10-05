@@ -1,6 +1,6 @@
 [package]
 name = "wasmer/js-service-worker"
-version = "0.1.0"
+version = "0.1.1"
 description = "wasmer/js-service-worker js worker"
 readme = "README.md"
 
