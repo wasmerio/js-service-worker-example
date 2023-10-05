@@ -1,0 +1,6 @@
+---
+kind: wasmer.io/App.v0
+name: wasmer-js-service-worker-worker
+package: wasmer/js-service-worker
+cli_args:
+  - /src/index.js
